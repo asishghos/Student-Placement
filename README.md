@@ -55,20 +55,17 @@ The project follows a standard data science workflow:
 #### Correlation Matrix
 The heatmap shows the correlation between different features. `CGPA` and `Academic` performance show a strong positive correlation with `Placement`.
 
-![Correlation Heatmap](https://i.imgur.com/your_correlation_heatmap_image_url.png)
-*Replace the link above with the path to your saved heatmap image.*
+![Correlation Heatmap](https://github.com/asishghos/Student-Placement/blob/main/images/Figure_2.png)
 
 #### CGPA vs. Placement
 The boxplot clearly indicates that students who were placed generally have a higher CGPA than those who were not.
 
-![CGPA vs Placement](https://i.imgur.com/your_cgpavsplacement_boxplot_url.png)
-*Replace the link above with the path to your saved boxplot image.*
+![CGPA vs Placement](https://github.com/asishghos/Student-Placement/blob/main/images/Figure_3.png)
 
 #### Feature Importance
 The Random Forest model identified `CGPA`, `Prev_Sem_CGPA`, and `IQ` as the most important features for predicting placements.
 
-![Feature Importance](https://i.imgur.com/your_feature_importance_barchart_url.png)
-*Replace the link above with the path to your saved bar chart image.*
+![Feature Importance](https://github.com/asishghos/Student-Placement/blob/main/images/Figure_5.png)
 
 
 ---
@@ -85,11 +82,6 @@ The models were evaluated on the test set, and the results are summarized below.
 The Random Forest Classifier significantly outperformed the Logistic Regression model, achieving near-perfect accuracy on the test data.
 
 ---
-
-## Key Findings
-- **CGPA is King:** A student's CGPA is the single most powerful predictor of their placement outcome.
-- **Internship Matters:** Having internship experience provides a significant boost to a student's chances of getting placed.
-- **Strong Academics are Crucial:** Overall academic performance, IQ, and previous semester results are also strong indicators of placement success.
 
 ---
 
